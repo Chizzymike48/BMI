@@ -4,7 +4,7 @@ function calculate(){
     let heightM =parseFloat(document.getElementById("height").value);
     let resultArea = document.getElementById("result")
 
-    if(personName = "" || isNaN(weightKg) || isNaN(heightM) || weightKg <= 0 || heightM<=0){
+    if(personName === "" || isNaN(weightKg) || isNaN(heightM) || weightKg <= 0 || heightM<=0){
         resultArea.innerHTML = "please enter a valid name, weightkg, heightM";
         return;
     }
